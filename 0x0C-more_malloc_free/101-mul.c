@@ -5,7 +5,7 @@
 /**
  * is_digit - checks if a string contains a non-digit char
  * @s: string to be evaluated
- * Return: 0 if a non-digit is found, 1 otherwisw
+ * Return: 0 if a non-digit is found, 1 otherwise
  */
 
 int is_digit(char *s)
@@ -37,6 +37,7 @@ int _strlen(char *s)
 	}
 	return (i);
 }
+
 /**
  * errors - handels errors for main
  */
@@ -46,6 +47,7 @@ void errors(void)
 	printf("Error\n");
 	exit(98);
 }
+
 /**
  * main - multiplies two positive numbers
  * @argc: number of arguments
