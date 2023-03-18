@@ -37,7 +37,6 @@ int _strlen(char *s)
 	}
 	return (i);
 }
-
 /**
  * errors - handels errors for main
  */
@@ -47,7 +46,6 @@ void errors(void)
 	printf("Error\n");
 	exit(98);
 }
-
 /**
  * main - multiplies two positive numbers
  * @argc: number of arguments
@@ -94,7 +92,7 @@ int main(int argc, char *argv[])
 			_putchar(result[i] + '0');
 	}
 	if (!a)
-		_putchar('0');
+	_putchar('0');
 	_putchar('\n');
 	free(result);
 	return (0);
